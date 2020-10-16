@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 
+	"github.com/Bayu200720/mc2/auth-service/database"
+
 	"log"
 	"net/http"
 
@@ -33,8 +35,8 @@ func main() {
 
 	router.Handle("/admin-auth", http.HandlerFunc(handler.ValidateAuth))
 
-	fmt.Printf("Auth service listen on :8001")
-	log.Panic(http.ListenAndServe(":8001", router))
+	fmt.Printf("Auth service listen on :8003")
+	log.Panic(http.ListenAndServe(":8003", router))
 }
 
 func getConfig() (config.Config, error) {
@@ -63,7 +65,7 @@ func initDB(cfg config.Database) (*gorm.DB, error) {
 		return nil, err
 	}
 
-	// err = db.AutoMigrate(&database.Auth{})
+	err = db.AutoMigrate(&database.Auth{})
 	if err != nil {
 		return nil, err
 	}
