@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/auth-service/config"
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/auth-service/handler"
+	"github.com/Bayu200720/mc2/auth-service/config"
+	"github.com/Bayu200720/mc2/auth-service/handler"
 	"github.com/gorilla/mux"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"

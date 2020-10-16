@@ -5,12 +5,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/menu-service/config"
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/menu-service/database"
+	"github.com/Bayu200720/mc2/menu-service/config"
+	"github.com/Bayu200720/mc2/menu-service/database"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/menu-service/handler"
+	"github.com/Bayu200720/mc2/menu-service/handler"
 	"github.com/gorilla/mux"
 )
 

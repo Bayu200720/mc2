@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/menu-service/database"
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/menu-service/utils"
+	"github.com/Bayu200720/mc2/menu-service/database"
+	"github.com/Bayu200720/mc2/menu-service/utils"
 	"gorm.io/gorm"
 )
 

@@ -7,8 +7,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/auth-service/database"
-	"github.com/andsholinka/Digitalent-Kominfo_Go-Microservice/utils"
+	"github.com/Bayu200720/mc2/auth-service/database"
+	"github.com/Bayu200720/mc2/utils"
 )
 
 type AuthDB struct {
